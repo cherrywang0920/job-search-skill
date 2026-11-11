@@ -149,13 +149,20 @@ blockers: the rubric is what makes ratings useful. Remove sections that don't ap
 1. Copy `companies.example.json` (a starter list of mostly tech companies, many US/Canada).
 2. Ask: **keep the starter list, trim it, or start empty?** Trim rows clearly outside the user's
    countries or interests (e.g. Canadian banks for someone searching only in Germany). Rows without
-   no `ats` cost one careers-page fetch per run, so a long list of them makes runs slower.
+   no `ats` are checked by fetching their careers page, which costs time and usage, so they are
+   checked weekly unless tagged daily (next step).
 3. Add each dream company (answer 13). Find its job board: open the careers page and look for a
    `job-boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`, `jobs.ashbyhq.com/<slug>`, or
    `<tenant>.wdN.myworkdayjobs.com/<site>` link. Verify the slug with the API URL from the file's
    `_comment` (it must return JSON). No public board → add it with `"ats": null` and its
    `careers_url`. Cap this at ~20 lookups during onboarding and say the rest can be added later
    ("add Spotify to my watchlist").
+4. **Pick the daily careers-page list.** Among the `ats: null` rows, tag `"check": "daily"` on the
+   ones the user most wants (dream companies, preferred domains) **whose roles the Simplify feed
+   doesn't already list**: load the configured feed(s) and count rows for that company matching
+   the user's `title_include` (any term). Zero matching rows → a daily candidate; Simplify already
+   covers the rest, so Monday is enough for them. Keep it to roughly 10-15 and show the user the
+   list. Skip this step if `simplify_feeds` is empty (then pick the 10-15 most-wanted).
 
 ### 4. `ambassador_programs.json` (only if answer 18 was yes)
 Copy `ambassador_programs.example.json`. Re-tier programs by the user's interests (design tools,

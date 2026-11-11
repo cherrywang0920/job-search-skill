@@ -35,7 +35,7 @@ Sources: simplify ok / ats ok (0 boards failed) / discovery ok / linkedin ok
 | Company watchlist | Public Greenhouse, Lever, Ashby and Workday job boards of companies you pick, checked every run |
 | Discovery sweep | ~1,000 more company boards found in the Simplify feeds, filtered strictly to your roles |
 | LinkedIn guest search | Your queries × your locations, last N days, low volume |
-| Careers pages | Companies with no public API (Google, Apple, Meta...) get a careers-page spot-check every run |
+| Careers pages | Companies with no public API (Google, Apple, Meta...) get a careers-page check: your top picks every run, the rest weekly |
 | apmlist.com (optional) | Status changes for APM / PM intern programs |
 | Ambassador watchlist (optional) | Campus/student ambassador programs, checked weekly |
 
