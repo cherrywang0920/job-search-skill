@@ -1,0 +1,59 @@
+{
+  "_comment": "Example only. Onboarding (references/onboarding.md) writes your real config.json, which is git-ignored. Every keyword list is a list of regex fragments matched as whole words, case-insensitive; use \\w* for prefixes (e.g. 'product manag\\w*').",
+
+  "name": "Alex",
+  "job_types": ["internship"],
+  "terms": ["Summer 2027", "Fall 2027"],
+  "term_hints": ["class of 2028"],
+
+  "roles": {
+    "title_include": ["software", "swe", "developer", "engineer\\w*", "backend", "back-end", "frontend", "front-end", "full[- ]stack", "mobile", "ios", "android", "platform", "infrastructure"],
+    "title_exclude": ["senior", "sr\\.?", "staff", "principal", "director", "lead", "head of", "manager", "phd", "mba", "hardware", "electrical", "mechanical", "civil", "chemical", "sales", "recruit\\w*", "new grad\\w*"],
+    "discover_title_include": [],
+    "discover_title_exclude": ["firmware", "rf", "asic", "fpga", "silicon", "test technician"],
+    "linkedin_queries": ["software engineer intern", "software developer intern", "software engineering internship"],
+    "ats_search_terms": ["software intern", "engineering intern"],
+    "simplify_categories": ["Software", "Software Engineering"]
+  },
+
+  "locations": {
+    "countries": ["United States", "Canada"],
+    "cities": [],
+    "remote": true,
+    "linkedin_locations": ["United States", "Canada"],
+    "wide_window_days": {"Canada": 21},
+    "extra_city_markers": {}
+  },
+
+  "work_authorization": {
+    "United States": "needs-sponsorship",
+    "Canada": "authorized"
+  },
+
+  "window_days": 2,
+
+  "sources": {
+    "simplify_feeds": [
+      "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json"
+    ],
+    "linkedin": true,
+    "linkedin_experience_levels": ["1"],
+    "ats_watchlist": true,
+    "discover_boards": true,
+    "apmlist": false
+  },
+
+  "ambassador_programs": false,
+
+  "reports_dir": "~/Job Search Reports",
+
+  "tracker": {
+    "type": "none",
+    "location": "",
+    "range": "",
+    "company_column": "Company",
+    "role_column": "Role"
+  },
+
+  "schedule": "none"
+}

@@ -1,0 +1,221 @@
+{
+  "_comment": "Starter watchlist of campus/student ambassador programs. Only used when ambassador_programs is true in config.json. Onboarding copies this to ambassador_programs.json (git-ignored). These programs live on company microsites and recruit once or twice a year, so the daily scraper rarely finds them; the skill checks this list weekly. `tier` sets how often: top/high every Monday, mid/watch on the first Monday of the month. `status_seen` is what the page said when last checked (date + text), a hint only. Set `skip_check: true` for programs you have already applied to. Programs are never filtered by posting date: most accept late applications.",
+  "programs": [
+    {
+      "name": "Figma Campus Leaders",
+      "url": "https://linktr.ee/figmacampusleaders",
+      "tier": "top",
+      "why": "design tool; campus events and community",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Adobe Student Ambassador",
+      "url": "https://www.adobeforeducation.com/student-ambassador-program",
+      "tier": "top",
+      "why": "creative tools; events, content and campus leadership",
+      "eligibility": "historically US, UK and Australia only; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Anthropic Claude Campus Ambassadors / Builder Clubs",
+      "url": "https://claude.com/programs/campus",
+      "tier": "top",
+      "why": "AI product, paid stipend, campus events",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Anthropic Claude Corps Fellowship",
+      "url": "https://www.anthropic.com/claude-corps/fellow",
+      "tier": "top",
+      "why": "AI fellowship, cohort-based",
+      "eligibility": "has required existing US work authorization (no sponsorship); check the page",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "OpenAI Student Collective - Campus Lead",
+      "url": "https://openai.com/student-collective/",
+      "tier": "top",
+      "why": "AI, paid stipend and event funding",
+      "eligibility": "has accepted students from multiple countries (incl. Canada) in past cycles; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "OpenAI Campus Network - Student Club Interest",
+      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form/",
+      "tier": "high",
+      "why": "ongoing interest form, low cost to submit",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Cursor Campus Leads",
+      "url": "https://anysphere.typeform.com/to/x8Mr87nN",
+      "tier": "high",
+      "why": "AI-native developer tool, campus events",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Cursor Ambassadors (general)",
+      "url": "https://anysphere.typeform.com/to/YreXrWZd",
+      "tier": "high",
+      "why": "rolling, reviewed weekly",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Notion Campus Leaders",
+      "url": "https://www.notion.so/product/notion-for-education",
+      "tier": "high",
+      "why": "productivity tool, campus community",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "GitHub Campus Experts",
+      "url": "https://github.com/education/students/campus-expert",
+      "tier": "high",
+      "why": "technical community leadership, global program",
+      "eligibility": "global program",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Microsoft Learn Student Ambassadors",
+      "url": "https://mvp.microsoft.com/studentambassadors",
+      "tier": "high",
+      "why": "big tech, ongoing participation model, globally open",
+      "eligibility": "global program",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Replit Campus Leaders",
+      "url": "https://replit.com/edu/campus-leaders",
+      "tier": "mid",
+      "why": "developer tools, event support",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Databricks Student Fellows",
+      "url": "https://airtable.com/appasC90KmqZ5x1t5/pag6tvR9VUG4Kf1iM/form",
+      "tier": "mid",
+      "why": "data/AI platform fellowship",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Autodesk Student Ambassador",
+      "url": "https://www.autodesk.com/education/home",
+      "tier": "mid",
+      "why": "design and engineering software",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "AWS Student Builder Group Leader",
+      "url": "https://builder.aws.com/content/3CdWYQVnCvWSJ1tuASel5VuPIbW/apply-to-start-an-aws-student-builder-group-on-your-campus",
+      "tier": "mid",
+      "why": "start a campus builder group; leadership evidence",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Google Developer Groups on Campus Organizer",
+      "url": "https://developers.google.com/community",
+      "tier": "mid",
+      "why": "Google-affiliated campus developer community",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Salesforce Student Ambassador",
+      "url": "https://invite.salesforce.com/studentambassadors",
+      "tier": "mid",
+      "why": "express-interest page, low effort",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Mistral AI Ambassadors",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdBSiRzm2xBpMszB_9fBixJNyKdGnPMj99DtZbagHMdHgkGUg/viewform",
+      "tier": "mid",
+      "why": "AI, rolling with quarterly cohorts, six-month minimum",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "ElevenLabs Ambassador Program",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeW2gthJtSrZ5Rhs7_FYT0BtykJcWnE2XXVsURe-xaSZHkQeA/viewform",
+      "tier": "mid",
+      "why": "AI audio",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Hugging Face Ambassadors",
+      "url": "https://huggingface.co/blog/ambassadors",
+      "tier": "mid",
+      "why": "AI/ML community",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Perplexity Campus Strategists",
+      "url": "https://www.perplexity.ai/campus-strategists",
+      "tier": "watch",
+      "why": "AI search, strong brand",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "OpenAI Codex Ambassadors",
+      "url": "https://developers.openai.com/community/codex-ambassadors",
+      "tier": "watch",
+      "why": "AI coding tool community",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Women Techmakers Ambassadors",
+      "url": "https://www.technovation.org/women-techmakers/",
+      "tier": "watch",
+      "why": "Google-affiliated, community leadership",
+      "eligibility": "global program",
+      "status_seen": "",
+      "skip_check": false
+    },
+    {
+      "name": "Tableau Community Ambassadors",
+      "url": "https://www.tableau.com/community/community-leaders/ambassadors/apply",
+      "tier": "watch",
+      "why": "data visualization community",
+      "eligibility": "unconfirmed; check the form",
+      "status_seen": "",
+      "skip_check": false
+    }
+  ]
+}

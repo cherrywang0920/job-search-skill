@@ -1,0 +1,796 @@
+{
+  "_comment": "Starter company watchlist. Onboarding copies this to companies.json (git-ignored) and prunes or extends it for you. Rows with `ats` + `slug` are checked automatically every run through public job-board APIs: greenhouse (boards-api.greenhouse.io/v1/boards/<slug>/jobs), lever (api.lever.co/v0/postings/<slug>), ashby (api.ashbyhq.com/posting-api/job-board/<slug>), workday (slug = tenant/wdN/site from <tenant>.<wdN>.myworkdayjobs.com/<site>). Rows with `ats: null` have no public API and are spot-checked by the agent on Mondays via `careers_url`. `tier` is big | mid | small | program. `region` is optional.",
+  "companies": [
+    {
+      "name": "Duolingo",
+      "ats": "greenhouse",
+      "slug": "duolingo",
+      "careers_url": "https://careers.duolingo.com/",
+      "tier": "big"
+    },
+    {
+      "name": "Figma",
+      "ats": "greenhouse",
+      "slug": "figma",
+      "careers_url": "https://www.figma.com/careers/#job-openings",
+      "tier": "big"
+    },
+    {
+      "name": "Robinhood",
+      "ats": "greenhouse",
+      "slug": "robinhood",
+      "careers_url": "https://careers.robinhood.com/",
+      "tier": "big"
+    },
+    {
+      "name": "Reddit",
+      "ats": "greenhouse",
+      "slug": "reddit",
+      "careers_url": "https://redditinc.com/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Scale AI",
+      "ats": "greenhouse",
+      "slug": "scaleai",
+      "careers_url": "https://scale.com/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Cloudflare",
+      "ats": "greenhouse",
+      "slug": "cloudflare",
+      "careers_url": "https://www.cloudflare.com/careers/jobs/",
+      "tier": "big"
+    },
+    {
+      "name": "Stripe",
+      "ats": "greenhouse",
+      "slug": "stripe",
+      "careers_url": "https://stripe.com/jobs/search",
+      "tier": "big"
+    },
+    {
+      "name": "Coinbase",
+      "ats": "greenhouse",
+      "slug": "coinbase",
+      "careers_url": "https://www.coinbase.com/careers/positions",
+      "tier": "big"
+    },
+    {
+      "name": "Databricks",
+      "ats": "greenhouse",
+      "slug": "databricks",
+      "careers_url": "https://www.databricks.com/company/careers/university-recruiting",
+      "tier": "big"
+    },
+    {
+      "name": "Airbnb",
+      "ats": "greenhouse",
+      "slug": "airbnb",
+      "careers_url": "https://careers.airbnb.com/",
+      "tier": "big"
+    },
+    {
+      "name": "Pinterest",
+      "ats": "greenhouse",
+      "slug": "pinterest",
+      "careers_url": "https://www.pinterestcareers.com/early-career/",
+      "tier": "big"
+    },
+    {
+      "name": "Discord",
+      "ats": "greenhouse",
+      "slug": "discord",
+      "careers_url": "https://discord.com/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Dropbox",
+      "ats": "greenhouse",
+      "slug": "dropbox",
+      "careers_url": "https://jobs.dropbox.com/all-jobs",
+      "tier": "big"
+    },
+    {
+      "name": "Lyft",
+      "ats": "greenhouse",
+      "slug": "lyft",
+      "careers_url": "https://www.lyft.com/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Instacart",
+      "ats": "greenhouse",
+      "slug": "instacart",
+      "careers_url": "https://www.instacart.careers/",
+      "tier": "big"
+    },
+    {
+      "name": "DoorDash",
+      "ats": "greenhouse",
+      "slug": "doordashusa",
+      "careers_url": "https://careersatdoordash.com/",
+      "tier": "big"
+    },
+    {
+      "name": "Anthropic",
+      "ats": "greenhouse",
+      "slug": "anthropic",
+      "careers_url": "https://www.anthropic.com/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Roblox",
+      "ats": "greenhouse",
+      "slug": "roblox",
+      "careers_url": "https://careers.roblox.com/",
+      "tier": "big"
+    },
+    {
+      "name": "Asana",
+      "ats": "greenhouse",
+      "slug": "asana",
+      "careers_url": "https://asana.com/jobs/all",
+      "tier": "big"
+    },
+    {
+      "name": "Samsara",
+      "ats": "greenhouse",
+      "slug": "samsara",
+      "careers_url": "https://www.samsara.com/company/careers/roles",
+      "tier": "mid"
+    },
+    {
+      "name": "Block / Square",
+      "ats": "greenhouse",
+      "slug": "block",
+      "careers_url": "https://block.xyz/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Brex",
+      "ats": "greenhouse",
+      "slug": "brex",
+      "careers_url": "https://www.brex.com/careers",
+      "tier": "mid"
+    },
+    {
+      "name": "Chime",
+      "ats": "greenhouse",
+      "slug": "chime",
+      "careers_url": "https://www.chime.com/careers/",
+      "tier": "mid"
+    },
+    {
+      "name": "Affirm",
+      "ats": "greenhouse",
+      "slug": "affirm",
+      "careers_url": "https://www.affirm.com/careers",
+      "tier": "mid"
+    },
+    {
+      "name": "Webflow",
+      "ats": "greenhouse",
+      "slug": "webflow",
+      "careers_url": "https://webflow.com/careers",
+      "tier": "mid"
+    },
+    {
+      "name": "Vercel",
+      "ats": "greenhouse",
+      "slug": "vercel",
+      "careers_url": "https://vercel.com/careers",
+      "tier": "mid"
+    },
+    {
+      "name": "Faire",
+      "ats": "greenhouse",
+      "slug": "faire",
+      "careers_url": "https://www.faire.com/careers",
+      "tier": "mid"
+    },
+    {
+      "name": "Spotify",
+      "ats": "lever",
+      "slug": "spotify",
+      "careers_url": "https://www.lifeatspotify.com/jobs",
+      "tier": "big"
+    },
+    {
+      "name": "Notion",
+      "ats": "ashby",
+      "slug": "notion",
+      "careers_url": "https://www.notion.com/careers",
+      "tier": "big"
+    },
+    {
+      "name": "OpenAI",
+      "ats": "ashby",
+      "slug": "openai",
+      "careers_url": "https://openai.com/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Perplexity",
+      "ats": "ashby",
+      "slug": "perplexity",
+      "careers_url": "https://jobs.ashbyhq.com/Perplexity",
+      "tier": "big"
+    },
+    {
+      "name": "Sierra",
+      "ats": "ashby",
+      "slug": "sierra",
+      "careers_url": "https://jobs.ashbyhq.com/Sierra",
+      "tier": "mid"
+    },
+    {
+      "name": "Snowflake",
+      "ats": "ashby",
+      "slug": "snowflake",
+      "careers_url": "https://jobs.ashbyhq.com/snowflake",
+      "tier": "big"
+    },
+    {
+      "name": "Linear",
+      "ats": "ashby",
+      "slug": "linear",
+      "careers_url": "https://linear.app/careers",
+      "tier": "mid"
+    },
+    {
+      "name": "Ramp",
+      "ats": "ashby",
+      "slug": "ramp",
+      "careers_url": "https://ramp.com/careers",
+      "tier": "mid"
+    },
+    {
+      "name": "Cursor",
+      "ats": "ashby",
+      "slug": "cursor",
+      "careers_url": "https://cursor.com/careers",
+      "tier": "mid"
+    },
+    {
+      "name": "Cohere",
+      "ats": "ashby",
+      "slug": "cohere",
+      "careers_url": "https://cohere.com/careers",
+      "tier": "mid"
+    },
+    {
+      "name": "Arcade AI",
+      "ats": "ashby",
+      "slug": "arcade-ai",
+      "careers_url": "https://jobs.ashbyhq.com/arcade-ai",
+      "tier": "small"
+    },
+    {
+      "name": "Kleiner Perkins Fellows",
+      "ats": "ashby",
+      "slug": "kleinerperkinsfellows",
+      "careers_url": "https://fellows.kleinerperkins.com/",
+      "tier": "program"
+    },
+    {
+      "name": "Nvidia",
+      "ats": "workday",
+      "slug": "nvidia/wd5/NVIDIAExternalCareerSite",
+      "careers_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
+      "tier": "big"
+    },
+    {
+      "name": "Visa",
+      "ats": "workday",
+      "slug": "visa/wd5/Visa",
+      "careers_url": "https://visa.wd5.myworkdayjobs.com/Visa",
+      "tier": "big"
+    },
+    {
+      "name": "Workday",
+      "ats": "workday",
+      "slug": "workday/wd5/Workday",
+      "careers_url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday",
+      "tier": "big"
+    },
+    {
+      "name": "Mastercard",
+      "ats": "workday",
+      "slug": "mastercard/wd1/CorporateCareers",
+      "careers_url": "https://careers.mastercard.com/us/en/search-results",
+      "tier": "big"
+    },
+    {
+      "name": "Red Hat",
+      "ats": "workday",
+      "slug": "redhat/wd5/jobs",
+      "careers_url": "https://redhat.wd5.myworkdayjobs.com/en-US/jobs",
+      "tier": "mid"
+    },
+    {
+      "name": "CrowdStrike",
+      "ats": "workday",
+      "slug": "crowdstrike/wd5/crowdstrikecareers",
+      "careers_url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers",
+      "tier": "mid"
+    },
+    {
+      "name": "Autodesk",
+      "ats": "workday",
+      "slug": "autodesk/wd1/Ext",
+      "careers_url": "https://autodesk.wd1.myworkdayjobs.com/Ext",
+      "tier": "big"
+    },
+    {
+      "name": "Salesforce",
+      "ats": "workday",
+      "slug": "salesforce/wd12/External_Career_Site",
+      "careers_url": "https://www.salesforce.com/company/careers/jobs/",
+      "tier": "big"
+    },
+    {
+      "name": "Adobe",
+      "ats": "workday",
+      "slug": "adobe/wd5/external_experienced",
+      "careers_url": "https://careers.adobe.com/us/en/search-results",
+      "tier": "big"
+    },
+    {
+      "name": "Google",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.google.com/about/careers/applications/jobs/results/",
+      "tier": "big"
+    },
+    {
+      "name": "Meta",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.metacareers.com/jobsearch/",
+      "tier": "big"
+    },
+    {
+      "name": "Apple",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://jobs.apple.com/en-us/search",
+      "tier": "big"
+    },
+    {
+      "name": "Amazon",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.amazon.jobs/en/search",
+      "tier": "big"
+    },
+    {
+      "name": "Microsoft",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://apply.careers.microsoft.com/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Atlassian",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.atlassian.com/company/careers/all-jobs",
+      "tier": "big"
+    },
+    {
+      "name": "Shopify",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.shopify.com/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Uber",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.uber.com/us/en/careers/list/",
+      "tier": "big"
+    },
+    {
+      "name": "Intuit",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://jobs.intuit.com/search-jobs",
+      "tier": "big"
+    },
+    {
+      "name": "Netflix",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://explore.jobs.netflix.net/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Snap",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.snap.com/jobs",
+      "tier": "big"
+    },
+    {
+      "name": "TikTok / ByteDance",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://lifeattiktok.com/search",
+      "tier": "big"
+    },
+    {
+      "name": "Canva",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.lifeatcanva.com/en/jobs/",
+      "tier": "big"
+    },
+    {
+      "name": "Miro",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://miro.com/careers/open-positions/",
+      "tier": "mid"
+    },
+    {
+      "name": "Grammarly",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.grammarly.com/jobs",
+      "tier": "mid"
+    },
+    {
+      "name": "Rippling",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.rippling.com/careers/open-roles",
+      "tier": "mid"
+    },
+    {
+      "name": "Wealthsimple",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://jobs.wealthsimple.com/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Hootsuite",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.hootsuite.com/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Electronic Arts",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://jobs.ea.com/en_US/careers/Home",
+      "tier": "big"
+    },
+    {
+      "name": "Expedia",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.expediagroup.com/jobs/",
+      "tier": "big"
+    },
+    {
+      "name": "Capital One",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.capitalonecareers.com/search-jobs",
+      "tier": "big"
+    },
+    {
+      "name": "Cisco",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.cisco.com/global/en/search-results",
+      "tier": "big"
+    },
+    {
+      "name": "IBM",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.ibm.com/careers/search",
+      "tier": "big"
+    },
+    {
+      "name": "GitHub",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.github.careers/careers-home/jobs",
+      "tier": "big"
+    },
+    {
+      "name": "Datadog",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.datadoghq.com/all-jobs/",
+      "tier": "big"
+    },
+    {
+      "name": "MongoDB",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.mongodb.com/company/careers/see-jobs",
+      "tier": "big"
+    },
+    {
+      "name": "Okta",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.okta.com/company/careers/job-listing/",
+      "tier": "mid"
+    },
+    {
+      "name": "ServiceNow",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.servicenow.com/jobs/",
+      "tier": "big"
+    },
+    {
+      "name": "Tesla",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.tesla.com/careers/search/",
+      "tier": "big"
+    },
+    {
+      "name": "Walmart",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.walmart.com/us/en/results",
+      "tier": "big"
+    },
+    {
+      "name": "PayPal",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://paypal.eightfold.ai/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Appian",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.appian.com/jobs",
+      "tier": "mid"
+    },
+    {
+      "name": "Qualcomm",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://app.eightfold.ai/careers",
+      "tier": "big"
+    },
+    {
+      "name": "Tinder / Match",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://join.matchgroupcareers.com/careers/",
+      "tier": "mid"
+    },
+    {
+      "name": "TD Bank",
+      "ats": "workday",
+      "slug": "td/wd3/TD_Bank_Careers",
+      "careers_url": "https://jobs.td.com/en-CA/search-jobs/intern/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "BMO",
+      "ats": "workday",
+      "slug": "bmo/wd3/External",
+      "careers_url": "https://jobs.bmo.com/ca/en/students-and-new-grads",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "CIBC",
+      "ats": "workday",
+      "slug": "cibc/wd3/search",
+      "careers_url": "https://cibc.wd3.myworkdayjobs.com/search",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Sun Life",
+      "ats": "workday",
+      "slug": "sunlife/wd3/Experienced-Jobs",
+      "careers_url": "https://sunlife.wd3.myworkdayjobs.com/Experienced-Jobs",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Later",
+      "ats": "greenhouse",
+      "slug": "later",
+      "careers_url": "https://later.com/careers/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Thinkific",
+      "ats": "greenhouse",
+      "slug": "thinkific",
+      "careers_url": "https://www.thinkific.com/careers/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Unbounce",
+      "ats": "greenhouse",
+      "slug": "unbounce",
+      "careers_url": "https://unbounce.com/careers/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "RBC",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://jobs.rbc.com/ca/en/students-and-grads",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Scotiabank",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://jobs.scotiabank.com/search/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Telus",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.telus.com/search/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Loblaw Digital",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.loblawdigital.com/careers",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Intact Financial",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.intact.ca/ca/en/search-results?keywords=co-op",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Manulife",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.manulife.com/global/en/search-results",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Definity",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.definityfinancial.com/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Lightspeed Commerce",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.lightspeedhq.com/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Clio",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.clio.com/about/careers/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "1Password",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://1password.com/careers",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Coveo",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.coveo.com/en/company/careers",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Kinaxis",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.kinaxis.com/en/careers",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Visier",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.visier.com/careers/",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Jane Software",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://jane.app/careers",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "lululemon",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.lululemon.com/en_US/careers/SearchJobs/intern",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Aritzia",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.aritzia.com/en/careers",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Dapper Labs",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.dapperlabs.com/careers",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "IBM Canada",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://www.ibm.com/careers/search",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "Bombardier",
+      "ats": null,
+      "slug": null,
+      "careers_url": "https://careers.bombardier.com/en/search-jobs",
+      "tier": "mid",
+      "region": "Canada"
+    },
+    {
+      "name": "SeatGeek",
+      "ats": "greenhouse",
+      "slug": "seatgeek",
+      "careers_url": "https://seatgeek.com/jobs",
+      "tier": "mid"
+    }
+  ]
+}

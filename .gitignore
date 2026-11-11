@@ -1,0 +1,12 @@
+# Personal files written by onboarding. They stay on your machine.
+config.json
+profile.md
+companies.json
+ambassador_programs.json
+state/
+stdout.json
+stderr.log
+
+__pycache__/
+*.pyc
+.DS_Store
