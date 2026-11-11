@@ -149,7 +149,7 @@ blockers: the rubric is what makes ratings useful. Remove sections that don't ap
 1. Copy `companies.example.json` (a starter list of mostly tech companies, many US/Canada).
 2. Ask: **keep the starter list, trim it, or start empty?** Trim rows clearly outside the user's
    countries or interests (e.g. Canadian banks for someone searching only in Germany). Rows without
-   an `ats` cost nothing daily, only on Mondays.
+   no `ats` cost one careers-page fetch per run, so a long list of them makes runs slower.
 3. Add each dream company (answer 13). Find its job board: open the careers page and look for a
    `job-boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`, `jobs.ashbyhq.com/<slug>`, or
    `<tenant>.wdN.myworkdayjobs.com/<site>` link. Verify the slug with the API URL from the file's

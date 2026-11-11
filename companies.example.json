@@ -1,5 +1,5 @@
 {
-  "_comment": "Starter company watchlist. Onboarding copies this to companies.json (git-ignored) and prunes or extends it for you. Rows with `ats` + `slug` are checked automatically every run through public job-board APIs: greenhouse (boards-api.greenhouse.io/v1/boards/<slug>/jobs), lever (api.lever.co/v0/postings/<slug>), ashby (api.ashbyhq.com/posting-api/job-board/<slug>), workday (slug = tenant/wdN/site from <tenant>.<wdN>.myworkdayjobs.com/<site>). Rows with `ats: null` have no public API and are spot-checked by the agent on Mondays via `careers_url`. `tier` is big | mid | small | program. `region` is optional.",
+  "_comment": "Starter company watchlist. Onboarding copies this to companies.json (git-ignored) and prunes or extends it for you. Rows with `ats` + `slug` are checked automatically every run through public job-board APIs: greenhouse (boards-api.greenhouse.io/v1/boards/<slug>/jobs), lever (api.lever.co/v0/postings/<slug>), ashby (api.ashbyhq.com/posting-api/job-board/<slug>), workday (slug = tenant/wdN/site from <tenant>.<wdN>.myworkdayjobs.com/<site>). Rows with `ats: null` have no public API and are spot-checked by the agent on every run via `careers_url`. `tier` is big | mid | small | program. `region` is optional.",
   "companies": [
     {
       "name": "Duolingo",

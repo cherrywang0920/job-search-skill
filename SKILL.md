@@ -45,7 +45,7 @@ Sources, in priority order:
 1. **SimplifyJobs feeds** (`sources.simplify_feeds`): structured internship / new-grad listings,
    mostly US and Canada. Term, location and date filtering is exact here.
 2. **Company watchlist** (`companies.json`): rows with an `ats` slug are checked every run through
-   public Greenhouse / Lever / Ashby / Workday APIs. Rows with `ats: null` get a Monday spot-check.
+   public Greenhouse / Lever / Ashby / Workday APIs. Rows with `ats: null` get a careers-page spot-check every run.
 3. **Discovery sweep**: every Greenhouse/Lever/Ashby board that appears in the Simplify feeds but
    is not on the watchlist (~1,000 boards, cached in `state/discovered_boards.json`), with stricter
    title filters. ~80 seconds. Rows carry `discovered: true`. `--no-discover` skips it. When a
@@ -125,10 +125,11 @@ honestly, name the biggest drag in the bullet, and never round up to be encourag
   never treated as blocked. For a High-fit role whose visa is `unknown`, spend one extra fetch to
   resolve it (`detail <li_id>` or WebFetch the posting; at most 5 per run).
 
-### 3b. Mondays: spot-check the no-API companies
-On Mondays (or when asked), open the `careers_url` of each `ats: null` company in `companies.json`
-with WebFetch (or a browser if WebFetch gets a JS shell) and look for matching roles. One fetch per
-company, no pagination. Anything found goes into the report as source "careers page" and must be
+### 3b. Every run: spot-check the no-API companies
+On every run, open the `careers_url` of each `ats: null` company in `companies.json` with WebFetch
+(or a browser if WebFetch gets a JS shell) and look for matching roles. Issue the fetches several
+at a time in parallel to keep the run short. One fetch per company, no pagination. If a page
+can't be read (JS shell, 403), say so in one line and move on. Anything found goes into the report as source "careers page" and must be
 added to `state/seen_jobs.json` (`job_search.py key --company X --title Y` gives the key; add an
 entry with today's `first_seen`) so it dedups next time. If apmlist is enabled, a company flipping
 to "Open" is a prompt to check its careers page that day, not proof a role exists.

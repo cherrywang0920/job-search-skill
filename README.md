@@ -35,7 +35,7 @@ Sources: simplify ok / ats ok (0 boards failed) / discovery ok / linkedin ok
 | Company watchlist | Public Greenhouse, Lever, Ashby and Workday job boards of companies you pick, checked every run |
 | Discovery sweep | ~1,000 more company boards found in the Simplify feeds, filtered strictly to your roles |
 | LinkedIn guest search | Your queries × your locations, last N days, low volume |
-| Careers pages (Mondays) | Companies with no public API (Google, Apple, Meta...) get a weekly spot-check |
+| Careers pages | Companies with no public API (Google, Apple, Meta...) get a careers-page spot-check every run |
 | apmlist.com (optional) | Status changes for APM / PM intern programs |
 | Ambassador watchlist (optional) | Campus/student ambassador programs, checked weekly |
 
@@ -88,7 +88,7 @@ prompts, so add an allowlist to `~/.claude/settings.json`, for example:
 }
 ```
 
-Add `WebFetch(domain:...)` entries for the careers sites you want spot-checked on Mondays, and
+Add `WebFetch(domain:...)` entries for the careers sites you want spot-checked, and
 adjust the reports path if you chose a different one.
 
 ## Your data stays local
